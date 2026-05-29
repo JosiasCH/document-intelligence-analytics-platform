@@ -1,0 +1,15 @@
+Case ID: CASE-2025-013
+Document Type: Decision Letter
+Request Type: Research Project
+Title: Data Quality Assessment in Academic Workflows
+Applicant: Applicant_013
+Coauthors: Coauthor_005
+Advisor: Advisor_002
+Faculty: Engineering
+Program: Systems Engineering
+Submission Date: 2025-10-18
+Review Date: 2025-10-23
+Decision Date: 2025-11-17
+Status: Approved
+Result: Rejected
+Observations: Advisor signature is missing.

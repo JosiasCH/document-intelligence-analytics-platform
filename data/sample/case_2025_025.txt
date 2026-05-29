@@ -1,0 +1,15 @@
+Case ID: CASE-2025-025
+Document Type: Committee Report
+Request Type: Ethics Review
+Title: Use of Analytics for Research Management
+Applicant: Applicant_025
+Coauthors: 
+Advisor: Advisor_002
+Faculty: Communication
+Program: Advertising
+Submission Date: 2025-02-23
+Review Date: 2025-03-02
+Decision Date: 
+Status: Pending
+Result: Pending additional documentation
+Observations: Budget justification requires additional detail.

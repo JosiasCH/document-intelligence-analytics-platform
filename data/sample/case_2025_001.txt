@@ -1,15 +1,15 @@
 Case ID: CASE-2025-001
-Document Type: Synthetic TXT
-Request Type: APC
-Title: Automation of Administrative Review Processes
+Document Type: Application Form
+Request Type: Research Project
+Title: Information Systems for Academic Decision-Making
 Applicant: Applicant_001
-Coauthors: Applicant_002, Applicant_003
-Advisor: Advisor_001
-Faculty: Engineering
-Program: Industrial Engineering
-Submission Date: 2025-03-01
-Review Date: 2025-03-10
-Decision Date: 2025-03-15
-Status: Approved
-Result: Approved without observations
-Observations: Complete documentation
+Coauthors: 
+Advisor: Advisor_012
+Faculty: Communication
+Program: Communication
+Submission Date: 2025-01-13
+Review Date: 2025-01-24
+Decision Date: 2025-02-02
+Status: Approved with observations
+Result: Conditionally approved
+Observations: No major observations.

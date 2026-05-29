@@ -1,0 +1,15 @@
+Case ID: CASE-2025-007
+Document Type: Review Memo
+Request Type: Patent
+Title: Use of Analytics for Research Management
+Applicant: Applicant_007
+Coauthors: Coauthor_002
+Advisor: Advisor_001
+Faculty: Business
+Program: 
+Submission Date: 2025-05-19
+Review Date: 2025-06-08
+Decision Date: 2025-07-01
+Status: Approved with observations
+Result: Pending additional documentation
+Observations: Missing informed consent form.

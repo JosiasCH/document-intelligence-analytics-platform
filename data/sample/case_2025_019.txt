@@ -1,0 +1,15 @@
+Case ID: CASE-2025-019
+Document Type: Application Form
+Request Type: IDIC
+Title: Information Systems for Academic Decision-Making
+Applicant: Applicant_019
+Coauthors: Coauthor_013
+Advisor: Advisor_008
+Faculty: Communication
+Program: Communication
+Submission Date: 2025-02-17
+Review Date: 2025-02-27
+Decision Date: 2025-03-14
+Status: Approved with observations
+Result: Rejected
+Observations: No major observations.

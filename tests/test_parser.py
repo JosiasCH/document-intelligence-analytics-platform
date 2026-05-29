@@ -26,3 +26,29 @@ def test_parse_case_document_complete_record():
     assert record["request_type"] == "APC"
     assert record["processing_days"] == 14
     assert record["data_quality_score"] == 100.0
+
+
+def test_parse_case_document_does_not_capture_next_line_when_program_is_empty():
+    text = """
+    Case ID: CASE-2025-999
+    Document Type: Synthetic TXT
+    Request Type: APC
+    Title: Data Quality Test Case
+    Applicant: Applicant_999
+    Coauthors:
+    Advisor: Advisor_001
+    Faculty: Engineering
+    Program:
+    Submission Date: 2025-05-19
+    Review Date: 2025-05-22
+    Decision Date: 2025-06-01
+    Status: Approved
+    Result: Approved
+    Observations: No major observations.
+    """
+
+    record = parse_case_document(text, source_file="quality_test.txt")
+
+    assert record["program"] is None
+    assert record["submission_date"] == "2025-05-19"
+    assert record["data_quality_score"] == 90.0

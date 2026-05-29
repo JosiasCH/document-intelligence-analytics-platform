@@ -1,0 +1,15 @@
+Case ID: CASE-2025-016
+Document Type: Decision Letter
+Request Type: IDIC
+Title: Operational Indicators for Committee Management
+Applicant: Applicant_016
+Coauthors: Coauthor_007, Coauthor_018, Coauthor_005
+Advisor: Advisor_011
+Faculty: Business
+Program: Business Administration
+Submission Date: 2025-09-21
+Review Date: 2025-10-01
+Decision Date: 
+Status: Pending
+Result: Pending additional documentation
+Observations: Ethical risk assessment requires more detail.

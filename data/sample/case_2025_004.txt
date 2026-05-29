@@ -1,0 +1,15 @@
+Case ID: CASE-2025-004
+Document Type: Decision Letter
+Request Type: APC
+Title: Use of Analytics for Research Management
+Applicant: Applicant_004
+Coauthors: 
+Advisor: Advisor_009
+Faculty: Engineering
+Program: Civil Engineering
+Submission Date: 2025-06-26
+Review Date: 2025-07-07
+Decision Date: 2025-08-01
+Status: Approved
+Result: Rejected
+Observations: Research scope should be narrowed.

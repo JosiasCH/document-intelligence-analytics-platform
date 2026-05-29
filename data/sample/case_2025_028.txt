@@ -1,0 +1,15 @@
+Case ID: CASE-2025-028
+Document Type: Committee Report
+Request Type: IDIC
+Title: Digital Transformation in University Services
+Applicant: Applicant_028
+Coauthors: Coauthor_002, Coauthor_012
+Advisor: Advisor_005
+Faculty: Business
+Program: Finance
+Submission Date: 2025-10-10
+Review Date: 2025-10-17
+Decision Date: 2025-10-23
+Status: Rejected
+Result: Approved
+Observations: Research scope should be narrowed.

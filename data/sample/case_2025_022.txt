@@ -1,0 +1,15 @@
+Case ID: CASE-2025-022
+Document Type: Application Form
+Request Type: Patent
+Title: Process Improvement in Document-Based Workflows
+Applicant: Applicant_022
+Coauthors: 
+Advisor: 
+Faculty: Communication
+Program: Communication
+Submission Date: 2025-07-26
+Review Date: 2025-08-01
+Decision Date: 
+Status: Under review
+Result: Under committee review
+Observations: Advisor signature is missing.

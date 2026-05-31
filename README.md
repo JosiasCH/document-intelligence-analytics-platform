@@ -1,18 +1,23 @@
 # Document Intelligence & Analytics Platform for Administrative Workflows
 
-An end-to-end analytics engineering project that transforms semi-structured administrative documents into validated, modeled, and decision-ready data for operational reporting.
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-Tested-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
-This project simulates a real-world administrative workflow where case information is stored across PDF, Word, and text documents. The platform extracts key fields, validates data quality, loads the results into PostgreSQL, builds an analytics-ready model, and connects the final view to a Power BI dashboard.
+An end-to-end analytics engineering project that converts semi-structured administrative documents into validated, modeled, and decision-ready data for operational reporting.
+
+The project simulates a document-based case management workflow where relevant information is stored across PDF, Word, and text files. The pipeline extracts key fields, validates data quality, loads the output into PostgreSQL, builds an analytics-ready model, and connects the final reporting view to a Power BI dashboard.
 
 ---
 
-## Project Overview
+## Overview
 
-Administrative teams often manage case-based workflows through semi-structured documents such as application forms, review memos, committee reports, and decision letters. These documents usually contain valuable operational information, but the data is difficult to analyze because it is not stored in a structured database.
+Administrative teams often manage case-based workflows through semi-structured documents such as application forms, review memos, committee reports, and decision letters. These documents contain valuable operational information, but the data is difficult to analyze when it is not stored in a structured database.
 
-This project solves that problem by creating a reproducible data pipeline that converts document-based case information into structured analytical data.
-
-The solution covers the full workflow:
+This project addresses that problem by creating a reproducible pipeline that turns document-based case information into structured analytical data.
 
 ```text
 PDF / Word / TXT documents
@@ -32,22 +37,22 @@ Power BI-ready SQL view
 Power BI dashboard
 ```
 
-The public version uses synthetic documents to preserve privacy while keeping the structure and analytical complexity of a real administrative workflow.
+The public version uses synthetic documents to preserve privacy while maintaining the structure and analytical complexity of a realistic administrative workflow.
 
 ---
 
-## Business Problem
+## Problem Statement
 
-Administrative review processes depend on timely, complete, and reliable case information. When the data is stored manually across documents and spreadsheets, several problems appear:
+Document-based administrative workflows can make operational reporting slow and inconsistent. When case information is distributed across files and spreadsheets, teams often face the following issues:
 
-- case tracking becomes slow and inconsistent;
-- missing fields are difficult to detect;
-- processing delays are not easy to monitor;
-- reporting depends on manual spreadsheet updates;
-- operational bottlenecks remain hidden;
-- decision-makers lack a consolidated view of workflow performance.
+- case tracking depends on manual updates;
+- missing fields are difficult to identify systematically;
+- processing delays are not visible in real time;
+- reporting requires repeated spreadsheet preparation;
+- operational bottlenecks are hard to detect;
+- decision-makers do not have a consolidated view of workflow performance.
 
-The goal of this project is to automate the extraction and transformation of administrative case data so that it can be monitored through reliable KPIs and dashboards.
+The objective is to automate the extraction, validation, modeling, and visualization of administrative case data so that workflow performance can be monitored through reliable metrics.
 
 ---
 
@@ -67,23 +72,24 @@ The current version includes:
 - dimensional model with fact and dimension tables;
 - Power BI-ready SQL view;
 - Power BI dashboard with four analytical pages;
-- reusable warm executive dashboard design system.
+- reusable Power BI design system with a warm executive visual style.
 
 ---
 
-## Tech Stack
+## Technologies Used
 
-| Layer | Technology |
+| Area | Tools |
 |---|---|
-| Document processing | Python, PyMuPDF, python-docx |
-| Data manipulation | Pandas |
+| Document extraction | Python, PyMuPDF, python-docx |
+| Data processing | Pandas |
 | Database | PostgreSQL |
-| Local infrastructure | Docker, Docker Compose |
+| Infrastructure | Docker, Docker Compose |
 | Data modeling | SQL, dimensional modeling |
 | Data quality | Python validation rules, SQL checks |
-| Dashboarding | Power BI Desktop |
+| Reporting | Power BI Desktop |
+| Testing | Pytest |
 | Version control | Git, GitHub |
-| Design system | Power BI JSON theme, custom 2000 × 2000 backgrounds |
+| Visual design | Power BI JSON theme, custom 2000 × 2000 canvas backgrounds |
 
 ---
 
@@ -145,7 +151,7 @@ document-intelligence-analytics-platform/
 
 ### 1. Synthetic Document Generation
 
-The project includes a script that generates synthetic administrative case documents. These documents preserve the structure of real administrative workflows while avoiding the use of sensitive or institutional data.
+The project includes a script that generates synthetic administrative case documents. The documents preserve the structure of a case-based review process without exposing real names, internal records, institutional documents, or confidential observations.
 
 The generated documents include variations such as:
 
@@ -278,11 +284,11 @@ Main measures and attributes include:
 
 ### Power BI View
 
-`analytics.vw_cases_powerbi` joins fact and dimension tables into a reporting-ready view. This keeps Power BI simpler and ensures that business logic stays closer to the database layer.
+`analytics.vw_cases_powerbi` joins fact and dimension tables into a reporting-ready view. This keeps Power BI simpler and keeps business logic close to the database layer.
 
 ---
 
-## Dashboard Preview
+## Dashboard
 
 The Power BI dashboard includes four pages:
 
@@ -316,9 +322,7 @@ The Power BI dashboard includes four pages:
 
 ---
 
-## Key Dashboard Metrics
-
-The dashboard tracks the following indicators:
+## Key Metrics
 
 | Metric | Description |
 |---|---|
@@ -512,7 +516,7 @@ This repository does not publish real administrative records, institutional docu
 
 The public version uses synthetic documents that preserve the structure and complexity of real administrative workflows without exposing sensitive information.
 
-This approach allows the project to demonstrate realistic document intelligence and analytics engineering capabilities while respecting privacy and confidentiality.
+This approach demonstrates realistic document intelligence and analytics engineering capabilities while respecting privacy and confidentiality.
 
 ---
 
@@ -531,10 +535,10 @@ Completed:
 - [x] Analytics dimensional model
 - [x] Power BI reporting view
 - [x] Power BI dashboard with four pages
-- [x] Dashboard screenshots for README
+- [x] Dashboard screenshots
 - [x] Warm executive Power BI design system
 
-In progress / planned:
+Planned:
 
 - [ ] Add dbt transformations
 - [ ] Add Airflow orchestration
@@ -562,9 +566,9 @@ Planned improvements include:
 
 ---
 
-## Portfolio Value
+## Engineering Highlights
 
-This project demonstrates the ability to work across the full analytics pipeline:
+This project covers the full analytical workflow from document ingestion to reporting:
 
 - document processing;
 - Python automation;
@@ -576,18 +580,10 @@ This project demonstrates the ability to work across the full analytics pipeline
 - Power BI reporting;
 - dashboard design;
 - operational analytics;
-- privacy-aware portfolio development.
-
-It is designed to support a transition from data analysis into analytics engineering and junior data engineering roles.
-
----
-
-## CV Summary
-
-Built an end-to-end document intelligence and analytics platform using Python, PostgreSQL, SQL, data quality checks, Docker and Power BI to extract, validate, model and visualize administrative case data from semi-structured PDF, Word and text documents.
+- privacy-aware data handling.
 
 ---
 
 ## License
 
-This project is intended for educational and portfolio purposes. The dataset is synthetic and does not represent real individuals, institutions, or confidential administrative records.
+This project is intended for educational and technical demonstration purposes. The dataset is synthetic and does not represent real individuals, institutions, or confidential administrative records.

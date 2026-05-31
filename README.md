@@ -1,15 +1,31 @@
-# Document Intelligence & Analytics Platform for Administrative Workflows
+<h1 align="center">
+  Document Intelligence & Analytics Platform for Administrative Workflows
+</h1>
 
-![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-Tested-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <br/>
+  <img src="https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyMuPDF-PDF%20Extraction-2B6CB0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/python--docx-Word%20Extraction-6B7280?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pytest-Tested-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+</p>
 
-An end-to-end analytics engineering project that converts semi-structured administrative documents into validated, modeled, and decision-ready data for operational reporting.
+<p align="center">
+  An end-to-end analytics engineering project that converts semi-structured administrative documents into validated, modeled, and decision-ready data for operational reporting.
+</p>
 
-The project simulates a document-based case management workflow where relevant information is stored across PDF, Word, and text files. The pipeline extracts key fields, validates data quality, loads the output into PostgreSQL, builds an analytics-ready model, and connects the final reporting view to a Power BI dashboard.
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#problem-statement">Problem Statement</a> ·
+  <a href="#solution">Solution</a> ·
+  <a href="#dashboard">Dashboard</a> ·
+  <a href="#how-to-run-locally">Run Locally</a> ·
+  <a href="#data-privacy">Data Privacy</a>
+</p>
 
 ---
 
@@ -347,7 +363,7 @@ The Power BI dashboard includes four pages:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/document-intelligence-analytics-platform.git
+git clone https://github.com/JosiasCH/document-intelligence-analytics-platform.git
 cd document-intelligence-analytics-platform
 ```
 
